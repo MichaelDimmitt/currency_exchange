@@ -8,10 +8,10 @@ The goal is to build a Rails application that tracks currencies and exchange rat
 - Rails 8.0.2
 
 ### Core Objectives
-- Generate a new Rails application with the Rails app generator.
-- Use the Rails scaffold to create model, view, controller for currencies
-- Run migrations to create the table (see column definitions below).
-- Add validations to the currency model to require basic fields.
+- Generate a new Rails application with the Rails app generator. ✅
+- Use the Rails scaffold to create model, view, controller for currencies ✅
+- Run migrations to create the table (see column definitions below). ✅
+- Add validations to the currency model to require basic fields. ✅
 
 ### Intermediate Objectives
 - Required fields should be enforced in the database. Add a database migration to make them required.
