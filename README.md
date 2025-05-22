@@ -28,3 +28,7 @@ Add these fields to your currencies table:
 - decimal_delimiter
 - thousands_delimiter
 - usd_exchange_rate
+
+### Links:
+- https://api.rubyonrails.org/ - now go to search and type "active record validations"
+note: having no context it might be diff to search rails api for db migration stuff... so go to guide on database validation.

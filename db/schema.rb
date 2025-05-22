@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_05_22_230409) do
+ActiveRecord::Schema[8.0].define(version: 2025_05_22_233719) do
   create_table "currencies", force: :cascade do |t|
-    t.string "name"
-    t.integer "currency_symbol"
-    t.string "iso_code"
+    t.string "name", null: false
+    t.integer "currency_symbol", null: false
+    t.string "iso_code", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
