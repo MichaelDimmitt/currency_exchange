@@ -30,5 +30,7 @@ Add these fields to your currencies table:
 - usd_exchange_rate
 
 ### Links:
-- https://api.rubyonrails.org/ - now go to search and type "active record validations"
-note: having no context it might be diff to search rails api for db migration stuff... so go to guide on database validation.
+- https://api.rubyonrails.org/ - now go to search and type "active record validations"  
+note: having no context it might be diff to search rails api for db migration stuff... so go to guide on database validation.  
+- https://guides.rubyonrails.org/active_record_migrations.html - how to do a migraation!!!   
+- https://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-change_column_null - how to migration syntax!  
