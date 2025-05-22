@@ -23,7 +23,7 @@ class CurrenciesController < ApplicationController
   def create
     @currency = Currency.new(currency_params)
 
-    respond_to do |format|
+    respond_to do |format| # super cool.
       if @currency.save
         format.html { redirect_to @currency, notice: "Currency was successfully created." }
         format.json { render :show, status: :created, location: @currency }
