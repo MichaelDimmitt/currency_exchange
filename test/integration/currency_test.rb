@@ -1,6 +1,6 @@
 require "test_helper"
 
-class CurrencyTest < ActionDispatch::IntegrationTest
+class CurrencyIntegrationTest < ActionDispatch::IntegrationTest
   test "should validate currency" do
     post currencies_url, params: {currency: {name: ""}}
     assert_response :unprocessable_entity

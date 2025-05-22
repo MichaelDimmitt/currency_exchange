@@ -1,6 +1,11 @@
 require "test_helper"
 
 class CurrencyTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
+  # rails generate scaffold currency name:string currency_symbol:integer iso_code:string
+
   test "validating required fields" do
     currency = Currency.new
     assert_equal currency.valid?, false
@@ -9,3 +14,6 @@ class CurrencyTest < ActiveSupport::TestCase
     assert_equal currency.errors[:iso_code], ["can't be blank"]
   end
 end
+
+# rails generate scaffold currency name:string currency_symbol:integer iso_code:string
+
